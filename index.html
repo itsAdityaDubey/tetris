@@ -20,7 +20,7 @@
   </style>
 </head>
 <body>
-<canvas id="game" width="320" height="600" id="game"></canvas>
+<canvas id="game" width="320" height="640" id="game"></canvas>
 <script>
 // get a random integer between the range of [min,max]
 function getRandomInt(min, max) {
@@ -136,7 +136,7 @@ function showGameOver() {
 
   context.fillStyle = 'black';
   context.globalAlpha = 0.75;
-  context.fillRect(0, canvas.height / 2 - 70, canvas.width, 60);
+  context.fillRect(0, canvas.height / 2 - 30, canvas.width, 60);
 
   context.globalAlpha = 1;
   context.fillStyle = 'white';
